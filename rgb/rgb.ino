@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 /*
  * Arduino IDE 1.6.5
  * ArduinoJson 5.2.0

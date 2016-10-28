@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 void initRGB() {
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
