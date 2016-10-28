@@ -6,6 +6,11 @@
 - U2 	1 	3.3V Regulator [LD1117V33] 	TO220
 - LED1 	1 	NeoPixel 	WS2812, WS2811 breadboard
 
+## Build Upload spiffs
+```
+platformio run --target buildfs && platformio run --target uploadfs
+```
+
 ##Схемы
 
 ###breadboard
