@@ -19,3 +19,14 @@ platformio run --target buildfs && platformio run --target uploadfs
 
 ###schematic
 ![alt](https://raw.githubusercontent.com/renat2985/rgb/master/tutorial/schematic.gif)
+
+## Bugs
+- captive
+- список сетей
+- не подключается с паролем в котором (-)
+- после после подключения нет информации о полученном ip
+  не понятно подключился?
+- установить пароль на wifi ap
+- Время?
+
+## TODO
