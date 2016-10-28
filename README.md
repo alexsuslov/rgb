@@ -23,7 +23,6 @@ platformio run --target buildfs && platformio run --target uploadfs
 ## Bugs
 - captive
 - список сетей
-
 - после после подключения нет информации о полученном ip
   не понятно подключился?
 - установить пароль на wifi ap
@@ -32,4 +31,5 @@ platformio run --target buildfs && platformio run --target uploadfs
 ## TODO
 
 ## Done
++ нарисовал схему в EASYEDA
 + не подключается с паролем в котором (-)
