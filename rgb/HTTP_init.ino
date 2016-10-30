@@ -25,7 +25,7 @@ void handle_TimeLed() {
  HTTP.send(200, "text/plain", "OK");
 }
 
-// Установка времянной зоны
+// Установка временной зоны
 void handle_TimeZone() {
  timezone = HTTP.arg("timezone").toInt();
  Time_init(timezone);

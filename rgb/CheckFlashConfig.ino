@@ -16,9 +16,10 @@ bool loadConfig() {
   // Выделим буфер для хранения содержимого файла.
   std::unique_ptr<char[]> buf(new char[size]);
 
-  // Мы не используем строку здесь, потому что библиотека Arduino Json требует ввода
-  // буфер, чтобы быть изменчивым. Если вы не используете ArduinoJson, вы можете также
-  // использование configFile.readString вместо этого.
+  // Мы не используем строку здесь, потому что библиотека Arduino Json
+  // требует ввода буфер, чтобы быть изменчивым. Если вы не используете
+  // ArduinoJson, вы можете также использование configFile.readString
+  // вместо этого.
   configFile.readBytes(buf.get(), size);
 
   StaticJsonBuffer<300> jsonBuffer;
