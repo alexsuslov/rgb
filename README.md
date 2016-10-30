@@ -19,7 +19,7 @@ platformio run --target buildfs && platformio run --target uploadfs
 
 ###schematic
 ![alt](https://raw.githubusercontent.com/renat2985/rgb/master/tutorial/schematic.gif)
-
+![](https://easyeda.com/normal/esp8266_WS2811b-892ba108698e4d12ae6df39420fb124a)
 ## Bugs
 - captive
 - список сетей
